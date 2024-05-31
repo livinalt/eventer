@@ -2,7 +2,7 @@
 
 const Header = () => {
   return (
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center h-16">
         <div className="flex items-center">
           <img src="path/to/logo.png" alt="Logo" />
           <ul className="flex space-x-4">
