@@ -5,7 +5,7 @@ const Header = () => {
       <nav className="flex justify-between items-center h-16">
         <div className="flex items-center">
           <img src="path/to/logo.png" alt="Logo" />
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 list-none">
             <li>
               <a href="/">Home</a>
             </li>
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <li>
+          <li className="list-none">
             <a href="/create">Create</a>
           </li>
           <button>Connect</button>
